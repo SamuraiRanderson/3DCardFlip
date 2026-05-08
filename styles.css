@@ -58,7 +58,11 @@ sc-card .front h1 {
 }
 
 sc-card .back {
-  background: url(images/war.jpg) center center no-repeat;
+  background-color: #2a2a2a;
+  background-image: url(images/war.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFF;
   transform: rotateY(180deg);
 }
